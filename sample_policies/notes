@@ -1,0 +1,7 @@
+1. Create the cluster 
+2. Create User and note their account ID and ARN
+2. Create the policies
+    - Create the IAM for the users 
+    > aws iam create-policy --policy-name testclusterpolicy --policy-document file://create_iam_user.json
+    - Create roles and make the user assume the role
+    > aws ima create-role --role-name testclusterrole --assume-role-policy-document file://create_role_for_user.json

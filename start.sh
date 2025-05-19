@@ -16,6 +16,7 @@ display_menu() {
     2. Delete Cluster
     3. View Cluster
     4. Setup OIDC
+    5. Setup Volumes for a Cluster
     5. Exit"
 }
 
